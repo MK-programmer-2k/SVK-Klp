@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ஸ்ரீ செல்வ விநாயகர் இளைஞர்கள்- கீழப்பனையூர் (SVK BOYS)</title>
+    <!-- Google Fonts - Poppins & Baloo Thambi 2 for beautiful Tamil Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- பக்க ஸ்க்ரோல் முன்னேற்றப் பட்டை -->
+    <div id="scroll-progress"></div>
+
+    <!-- முகப்பு வழிநடத்துதல் (Navbar) -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SVK <span class="accent-text">BOYS</span></a>
+            <nav class="nav-links">
+                <a href="#hero" class="active">முகப்பு</a>
+                <a href="#events">நிகழ்வுகள்</a>
+                <a href="#gallery">புகைப்படங்கள்</a>
+                <a href="#contact">தொடர்புக்கு</a>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- முதன்மை அறிமுகப் பகுதி (Hero Section) -->
+    <section id="hero" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content reveal">
+                <h1 class="hero-title">ஸ்ரீ செல்வ விநாயகர் <span class="accent-text">இளைஞர்கள்- கீழப்பனையூர்</span></h1>
+                <p class="hero-subtitle">SVK BOYS</p>
+                <div class="hero-btns">
+                    <a href="#events" class="btn btn-primary">நிகழ்வுகளைக் காண்க</a>
+                    <a href="#gallery" class="btn btn-secondary">புகைப்பட கூடம்</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- சமூக, கலாச்சார நிகழ்வுகள் (Events Section) -->
+    <section id="events" class="events-section section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">நிகழ்ச்சிகள் & திருவிழாக்கள்</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="options reveal" id="event-options">
+                <div class="option active" data-event="klp1">
+                    <img class="option-img" src="images/SVK BOYS/pongal.jpeg" alt="பொங்கல் விளையாட்டு">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon"><i class="fas fa-fire"></i></div>
+                        <div class="info">
+                            <div class="main">பொங்கல் விளையாட்டு</div>
+                            <div class="sub">ஜனவரி மாதம்</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option" data-event="klp2">
+                    <img class="option-img" src="images/SVK BOYS/alagunatchi_amman_1.jpeg" alt="அழகுநாச்சியம்மன் பூச்சொரிதல்">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon"><i class="fas fa-gopuram"></i></div>
+                        <div class="info">
+                            <div class="main">ஸ்ரீ அழகுநாச்சியம்மன் பூச்சொரிதல்</div>
+                            <div class="sub">மார்ச் மாதம்</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option" data-event="klp3">
+                    <img class="option-img" src="images/SVK BOYS/alagunatchi_amman_2.jpeg" alt="17-வது மண்டகப்படி">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon"><i class="fas fa-om"></i></div>
+                        <div class="info">
+                            <div class="main">ஸ்ரீ அழகுநாச்சியம்மன்-17-வது மண்டகப்படி</div>
+                            <div class="sub">மார்ச் மாதம்</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option" data-event="klp4">
+                    <img class="option-img" src="images/SVK BOYS/kamatchi_amman.jpeg" alt="கோடை சமூக நிகழ்ச்சி">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon"><i class="fas fa-leaf"></i></div>
+                        <div class="info">
+                            <div class="main">ஸ்ரீ காமாட்சி அம்மன் கோவில்-பூச்சொரிதல்</div>
+                            <div class="sub">மே - ஜூன் மாதம்</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="option" data-event="klp5">
+                    <img class="option-img" src="images/SVK BOYS/klp5_2024.jpg" alt="விநாயகர் சதுர்த்தி">
+                    <div class="shadow"></div>
+                    <div class="label">
+                        <div class="icon"><i class="fas fa-dharmachakra"></i></div>
+                        <div class="info">
+                            <div class="main">விநாயகர் சதுர்த்தி</div>
+                            <div class="sub">ஆகஸ்ட் மாதம்</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- புகைப்படத் தொகுப்பு (Gallery Section) -->
+    <section id="gallery" class="gallery-section section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="sub-title">நினைவலைகள்</span>
+                <h2 class="section-title">புகைப்படக் கூடம்</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <!-- இவண்ட வடிகட்டி -->
+            <div class="gallery-tabs reveal" id="gallery-event-tabs">
+                <button class="gallery-tab-btn active" data-filter="all">அனைத்தும்</button>
+                <button id="klp1" class="gallery-tab-btn" data-filter="klp1">பொங்கல் விளையாட்டு</button>
+                <button id="klp2" class="gallery-tab-btn" data-filter="klp2">ஸ்ரீ அழகுநாச்சியம்மன் - பூச்சொரிதல்</button>
+                <button id="klp3" class="gallery-tab-btn" data-filter="klp3">ஸ்ரீ அழகுநாச்சியம்மன்-17-வது மண்டகப்படி</button>
+                <button id="klp4" class="gallery-tab-btn" data-filter="klp4">ஸ்ரீ காமாட்சி அம்மன் கோவில்-பூச்சொரிதல்</button>
+                <button id="klp5" class="gallery-tab-btn" data-filter="klp5">விநாயகர் சதுர்த்தி</button>
+            </div>
+
+            <!-- ஆண்டு வடிகட்டி -->
+            <div class="gallery-tabs reveal" id="gallery-year-tabs">
+                <button class="gallery-tab-btn active" data-year="all">அனைத்து ஆண்டுகள்</button>
+                <button class="gallery-tab-btn" data-year="2022">2022</button>
+                <button class="gallery-tab-btn" data-year="2023">2023</button>
+                <button class="gallery-tab-btn" data-year="2024">2024</button>
+                <button class="gallery-tab-btn" data-year="2025">2025</button>
+                <button class="gallery-tab-btn" data-year="2026">2026</button>
+            </div>
+
+            <!-- புகைப்பட / வீடியோ கிரிட் -->
+            <div class="gallery-masonry" id="gallery-masonry-grid">
+                <p id="gallery-empty" style="display:none; text-align:center; padding:40px; color:#6B7280; width:100%; grid-column: 1/-1;">இந்த வடிகட்டலில் படங்கள் இல்லை.</p>
+            </div>
+        </div>
+    </section>
+
+
+  
+    <!-- தொடர்பு பகுதி (Contact Section) -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="sub-title">தொடர்பு கொள்ள</span>
+                <h2 class="section-title">நம்மோடு இணையுங்கள்</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-panel reveal-left">
+                    <h3>முகவரி</h3>
+                    
+                    <div class="info-details">
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>செல்வ விநாயகர் கோவில் , கீழப்பனையூர், தமிழ்நாடு, இந்தியா.</span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel card reveal-right">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">உங்கள் பெயர்</label>
+                            <input type="text" id="name" required placeholder="உதாரணம்: அரவிந்த்">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">கைபேசி எண்</label>
+                            <input type="tel" id="phone" required placeholder="+91 XXXXX XXXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">உங்கள் கருத்து</label>
+                            <textarea id="message" rows="5" required placeholder="இங்கே பதிவிடவும்..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">செய்தி அனுப்பு</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- அடிக்குறிப்பு (Footer) -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>SVK <span class="accent-text">BOYS</span></h3>
+            </div>
+            <div class="footer-links">
+                <h4>விரைவு இணைப்புகள்</h4>
+                <a href="#hero">முகப்பு</a>
+                <a href="#events">நிகழ்வுகள்</a>
+                <a href="#gallery">புகைப்படங்கள்</a>
+                <a href="#contact">தொடர்புக்கு</a>
+            </div>
+            <div class="footer-links">
+                <h4>விழாக்கள்</h4>
+                <a href="#events">பொங்கல் விளையாட்டு</a>
+                <a href="#events">விநாயகர் சதுர்த்தி</a>
+                <a href="#events">அழகுநாச்சியம்மன் பூச்சொரிதல்</a>
+                <a href="#gallery">புகைப்பட ஆவணங்கள்</a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 ஸ்ரீ செல்வ விநாயகர் இளைஞர்கள் (SVK BOYS).</p>
+        </div>
+    </footer>
+
+    <!-- மேலே செல்ல உதவும் பொத்தான் -->
+    <button id="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- லைட்பாக்ஸ் பாப்-அப் (Lightbox Gallery Overlay) -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-img" src="" alt="முன்னோட்டம்">
+        <video class="lightbox-video" controls style="display:none;">
+            <source src="" type="video/mp4">
+        </video>
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <!-- Custom Script JS -->
+    <script src="script.js"></script>
+</body>
+</html>
